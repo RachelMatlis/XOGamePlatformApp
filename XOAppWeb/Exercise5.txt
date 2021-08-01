@@ -1,0 +1,17 @@
+1. Create a RandomPlayerGameController
+2. when client sends a move to the RandomPlayerGameController, RandomPlayerGameController will put on the board and will make move as random Player 
+3. The same for ScanPlayerGame 
+
+
+
+XOCellDTO{
+	Row:0
+	Col:0
+	XorO:"X"
+}
+
+XOCellResponseDTO{
+	PostManMove:{Succeed:true}
+	
+	ComputerMove:{Row:,Col:}
+}

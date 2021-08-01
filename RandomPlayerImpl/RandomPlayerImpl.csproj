@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlayerImpl\PlayerImpl.csproj" />
+    <ProjectReference Include="..\XOContracts\XOContracts.csproj" />
+    <ProjectReference Include="..\XODTO\XODTO.csproj" />
+    <ProjectReference Include="..\XOPlayersContracts\XOPlayersContracts.csproj" />
+    <ProjectReference Include="..\XOServerContracts\XOServerContracts.csproj" />
+  </ItemGroup>
+
+</Project>

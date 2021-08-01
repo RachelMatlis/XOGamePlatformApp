@@ -1,0 +1,13 @@
+﻿1. Create a XOBoard with 1 Array implementation => XOBoard1Array
+2. *Advanced=> Implement XOBoard with linq expression=>
+3. Create a Factory that will return IXOBoard 
+=>>Change factory to return XOBoard1Array instead of XOBoard 
+4. Test it once with XOBoard with matrix implementation and once with XOBoard you implemented
+
+
+
+arr = {3,7,8,9,}
+
+arr.where(elem=>elem%2==0)
+
+

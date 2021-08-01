@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GamePlatformDictValue\GameValueImpl.csproj" />
+    <ProjectReference Include="..\GamePlatformService\GamePlatformServiceImpl.csproj" />
+    <ProjectReference Include="..\GameServiceImpl\GameServiceImpl.csproj" />
+    <ProjectReference Include="..\PlayersImpl\PlayersServiceImpl.csproj" />
+    <ProjectReference Include="..\RandomPlayerImpl\RandomPlayerImpl.csproj" />
+    <ProjectReference Include="..\ScanPlayerImpl\ScanPlayerImpl.csproj" />
+    <ProjectReference Include="..\UserServiceImpl\UserServiceImpl.csproj" />
+    <ProjectReference Include="..\XOBoardMatImpl\XOBoardMatImpl.csproj" />
+    <ProjectReference Include="..\XOBoardService\XOBoardService.csproj" />
+    <ProjectReference Include="..\XODTO\XODTO.csproj" />
+    <ProjectReference Include="..\XOPlayersContracts\XOPlayersContracts.csproj" />
+    <ProjectReference Include="..\XOServerContracts\XOServerContracts.csproj" />
+  </ItemGroup>
+
+
+</Project>

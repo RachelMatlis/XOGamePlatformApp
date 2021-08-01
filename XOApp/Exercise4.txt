@@ -1,0 +1,7 @@
+﻿1. Seperate each class from the players into different services 
+2. Build a main program that will get 2 players 
+3. Test that players are actually playing the game 
+4. Check that you can get all players 
+
+
+

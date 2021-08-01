@@ -1,0 +1,30 @@
+﻿1. Create Interface IXOGame and impement it via XOGame class (Last) 
+2. Create Interface for class IPlayer 
+3. Create Interface for class IHumanPlayer,IScanPlayer and IRandomPlayer 
+4. Implement all playeres 
+5. Register all classes in factory so we can work with them dynamically (Almost full support on it )  
+6. Unit test for Random and ScanPlayer 
+
+
+
+
+IXOBoard,IXOBoardView 
+IPlayer 
+	bool makeMove(IXOBoard)
+
+IHumanPlayer
+IScanPlayergr
+IRandomPlayer implements IPlayer
+
+
+abstract class Player =>IPlayer 
+	property XorO
+	makeMove(IXOBoard ) no implementation 
+
+HumanPlayer:Player, IHumanPlayer
+ScanPlayer: Player,IScanPlayer
+RandomPlayer:Player,IRandomPlayer 
+
+
+
+
